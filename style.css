@@ -1,0 +1,42 @@
+body {
+    background-color: orange;
+}
+
+ 
+h1 {
+    color: purple;font-size: 150px;
+}
+
+ 
+h2 {
+    font-size: 50px;
+}
+
+.blue-text {
+    color: blue;font-size: 20px; 
+}
+
+p {
+    color: pink; 
+ 
+}
+
+#main-content {
+    background-color: white; /* 設定區塊背景為白色 */
+    width: 600px; /* 設定區塊寬度為 600 像素 */
+    padding: 20px; /* 在區塊內緣增加 20 像素的留白 */
+    border: 5px solid black; /* 加上 5 像素粗的黑色實線邊框 */
+}
+
+#footer {
+background-color: black;
+
+color: white;
+
+text-align: center;
+
+padding: 10px;
+
+
+}
+

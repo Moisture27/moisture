@@ -1,21 +1,28 @@
+
 #header-nav {
-    background-color: pink; 
+    background-color: ORANGE; 
+  
     padding: 15px 20px;
     width: 100%;  
-    
+        
      
     display: flex;
-     
+       align-items: center; 
     justify-content: space-between; 
 }
 
 #header-nav p {
     color: green;
+
+}
+#header-nav a {
+    color: green;
+    /* 移除連結下劃線，讓它看起來更美觀 (可選) */
+    text-decoration: none;
 }
 
-
 body {
-    background-color: orange;
+    background-color: gray;
 display: flex;
 flex-direction: column; 
 min-height: 100vh;
@@ -44,11 +51,27 @@ p {
 }
 
 #main-content {
-    background-color: white; /* 設定區塊背景為白色 */
-    width: 600px; /* 設定區塊寬度為 600 像素 */
+    background-color: YELLOW;  
+    width: 600px; / 
     padding: 20px; /* 在區塊內緣增加 20 像素的留白 */
-    border: 5px solid black; /* 加上 5 像素粗的黑色實線邊框 */
+    border: 5px solid BLUE; /* 加上 5 像素粗的黑色實線邊框 */
 }
+
+#services {
+    background-color: LIME; /* 讓它使用一個怪誕的亮綠色 */
+    width: 600px;
+    padding: 10px;
+    margin-top: 20px;
+    
+    /* 讓裡面的連結文字能夠居中 */
+    text-align: center;
+}
+
+#pic2 {
+background-color: black;
+    margin-top: 20px;
+}
+
 
 #footer {
 background-color: black;
@@ -57,7 +80,7 @@ color: white;
 
 text-align: center;
 
-padding: 10px;
+padding: 5px;
 
 
 }
@@ -82,7 +105,13 @@ h1 {
 }
 
 
+@media screen and (max-width: 600px) {
 
+
+    #services {
+        width: 90%;
+    }
+}
 
 
 

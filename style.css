@@ -1,6 +1,5 @@
 #header-nav {
     background-color: pink; 
-    color: green;
     padding: 15px 20px;
     width: 100%;  
     
@@ -10,6 +9,11 @@
     justify-content: space-between; 
 }
 
+#header-nav p {
+    color: green;
+}
+
+
 body {
     background-color: orange;
 display: flex;
@@ -18,18 +22,20 @@ min-height: 100vh;
 align-items: center;
 }
 
+
+
  
 h1 {
-    color: purple;font-size: 150px;
+    color: purple;font-size: 50px;
 }
 
  
 h2 {
-    font-size: 50px;
+    font-size: 20px;
 }
 
 .blue-text {
-    color: blue;font-size: 20px; 
+    color: blue;font-size: 10px; 
 }
 
 p {
@@ -74,7 +80,6 @@ h1 {
         align-items: center; 
     }
 }
-
 
 
 

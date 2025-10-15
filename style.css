@@ -1,6 +1,6 @@
 #header-nav {
     background-color: pink; 
-    color: darkgreen;
+    color: green;
     padding: 15px 20px;
     width: 100%;  
     
@@ -74,6 +74,7 @@ h1 {
         align-items: center; 
     }
 }
+
 
 
 

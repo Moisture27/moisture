@@ -1,5 +1,9 @@
 body {
     background-color: orange;
+display: flex;
+flex-direction: column; 
+min-height: 100vh;
+align-items: center;
 }
 
  
@@ -39,4 +43,28 @@ padding: 10px;
 
 
 }
+
+@media screen and (max-width: 600px) {
+
+#main-content {
+        width: 90%; 
+        border: 2px solid red; 
+    }
+
+h1 {
+        font-size: 50px; /* 從 150px 縮小到 50px */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
